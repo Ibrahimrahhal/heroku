@@ -8,10 +8,7 @@
   },
   "author": "Ibrahim Rahhal",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.16.4",
-    "handlebars": "^4.0.12",
-    "jest": "^23.6.0",
-    "mongodb": "^3.1.4"
   }
 }
