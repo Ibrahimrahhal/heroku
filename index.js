@@ -8,7 +8,7 @@ var obj1= new Random();
 // console.log(obj1);
 
 app.get("/", (req,res)=>{
-
+res.set("Access-Control-Allow-Origin", "*");
 res.json(obj1);
 
 });
