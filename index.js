@@ -5,14 +5,14 @@ const Random = require(__dirname + "/Main/random.js");
 
 
 var obj1= new Random();
-
+// console.log(obj1);
 
 app.get("/", (req,res)=>{
-
 
 res.json(obj1);
 
 });
 
 
-app.listen(8080);
+app.listen(80,()=>{console.log("error");});
+app.listen(443,()=>{console.log("error");});
